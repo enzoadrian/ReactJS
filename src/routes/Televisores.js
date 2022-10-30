@@ -1,8 +1,7 @@
+import ItemListFilter from "../components/itemListFilter"
 const Televisores =() =>{
     return(
-        <div>
-            Televisores
-        </div>
+        <ItemListFilter categoria={'tv'} ></ItemListFilter>
     )
 
 }
